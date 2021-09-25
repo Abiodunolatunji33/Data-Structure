@@ -1,0 +1,3 @@
+#OLD MACDONALD: Write a function that capitalizes the first and fourth letters of a name
+def mac(strings):
+    return strings[:3].capitalize() + strings[3:].capitalize()
