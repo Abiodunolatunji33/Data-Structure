@@ -1,0 +1,4 @@
+#Palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
+
+def palindrome(string):
+    return string.replace(" ","")==string.replace(" ","")[::-1]
